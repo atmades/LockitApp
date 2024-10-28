@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Приложение требует доступ к камере для фотографирования страниц.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Доступ к Фотографиям</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>AvenirNextCyr-Bold.ttf</string>
+        <string>AvenirNextCyr-Demi.ttf</string>
+        <string>AvenirNextCyr-Medium.ttf</string>
+        <string>AvenirNextCyr-Regular.ttf</string>
+        <string>AvenirNextCyr-Light.ttf</string>
+        <string>AvenirNextCyr-Thin.ttf</string>
+    </array>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+        <key>UISceneConfigurations</key>
+        <dict>
+            <key>UIWindowSceneSessionRoleApplication</key>
+            <array>
+                <dict>
+                    <key>UISceneConfigurationName</key>
+                    <string>Default Configuration</string>
+                    <key>UISceneDelegateClassName</key>
+                    <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+                </dict>
+            </array>
+        </dict>
+    </dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.maxteam.LockIt</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>lockit</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>

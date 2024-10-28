@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_face_passcode.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

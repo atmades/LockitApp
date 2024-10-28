@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "masking_appIcon_key.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
